@@ -1,0 +1,24 @@
+{
+  "name": "cachepm",
+  "version": "0.0.1",
+  "description": "Npm install but will always load from cache if possible",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MikeyBurkman",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.3.4",
+    "is-there": "^4.3.1",
+    "mkdirp": "^0.5.1",
+    "mv": "^2.1.1",
+    "node-targz": "0.0.3",
+    "npmi": "^1.0.1",
+    "os-homedir": "^1.0.1",
+    "rmdir": "^1.2.0",
+    "semver": "^5.1.0",
+    "tarball-extract": "0.0.3"
+  }
+}
