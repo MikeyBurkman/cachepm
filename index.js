@@ -16,7 +16,6 @@ var path = require('path');
 
 var cacheDir = path.resolve(oshome(), '.npm');
 var tmpDir = path.resolve(os.tmpdir(), 'cachepm');
-var localNodeModules = path.resolve(process.cwd(), 'node_modules');
 
 Promise.config({
   // Enable warnings
